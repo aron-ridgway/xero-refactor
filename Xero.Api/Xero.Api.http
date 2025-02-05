@@ -1,0 +1,60 @@
+@baseUrl = https://localhost:7239/api/products
+
+@apiKey = 681212ab-9848-48a5-8723-f6cb0c34cbd7
+@id = 8f2e9176-35ee-4f0a-ae55-83023d2db1a3
+
+### Get all products
+GET {{baseUrl}}
+Accept: application/json
+X-Api-Key: {{apiKey}}
+
+###
+
+### Get a product by ID
+GET {{baseUrl}}/{{id}}
+Accept: application/json
+X-Api-Key: {{apiKey}}
+
+###
+
+### Search products by name
+GET {{baseUrl}}/search?name={name}
+Accept: application/json
+X-Api-Key: {{apiKey}}
+
+###
+
+### Create a new product
+POST {{baseUrl}}
+Content-Type: application/json
+X-Api-Key: {{apiKey}}
+
+{
+  "name": "Sample Product",
+  "description": "Product description",
+  "price": 100.00,
+  "deliveryPrice": 5.00
+}
+
+###
+
+### Update a product
+PUT {{baseUrl}}/{{id}}
+Content-Type: application/json
+X-Api-Key: {{apiKey}}
+
+{
+  "name": null,
+  "description": "Updated description",
+  "price": 150.00,
+  "deliveryPrice": 0
+}
+
+###
+
+### Delete a product
+DELETE {{baseUrl}}/{{id}}
+Accept: application/json
+X-Api-Key: {{apiKey}}
+
+###
