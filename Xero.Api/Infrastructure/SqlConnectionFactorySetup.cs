@@ -1,5 +1,3 @@
-using System;
-using Microsoft.OpenApi.Models;
 using Xero.Api.Services;
 
 namespace Xero.Api.Infrastructure;
