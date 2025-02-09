@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xero.Api", "Xero.Api\Xero.Api.csproj", "{FC3F9875-B09C-4BC8-9007-82D57078819C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xero.Api.Tests", "Xero.Api.Tests\Xero.Api.Tests.csproj", "{E37DEA75-C94C-472E-9B38-9CAB60DFC801}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{FC3F9875-B09C-4BC8-9007-82D57078819C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FC3F9875-B09C-4BC8-9007-82D57078819C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FC3F9875-B09C-4BC8-9007-82D57078819C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E37DEA75-C94C-472E-9B38-9CAB60DFC801}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E37DEA75-C94C-472E-9B38-9CAB60DFC801}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E37DEA75-C94C-472E-9B38-9CAB60DFC801}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E37DEA75-C94C-472E-9B38-9CAB60DFC801}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

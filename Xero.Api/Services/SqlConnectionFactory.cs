@@ -1,3 +1,4 @@
+using System.Data;
 using Microsoft.Data.SqlClient;
 
 namespace Xero.Api.Services;
@@ -11,8 +12,8 @@ public class SqlConnectionFactory : ISqlConnectionFactory
         _connectionString = connectionString;
     }
 
-    public SqlConnection Create()
+    public IDbConnection Create()
     {
         return new SqlConnection(_connectionString);
-    }
+    } 
 }
